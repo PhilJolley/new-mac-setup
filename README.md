@@ -20,11 +20,12 @@
 <hr>
 <ol>
     <li id="step-1">Install and then open Xcode from the App Store. Once open you can close it.</li>
-    <li id="step-2">Terminal Setup and CLI's
+    <li id="step-2">Terminal Setup, CLI's, and MySQL
         <ul>
             <li>Install Homebrew: <code>ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</code></li>
             <li>Install Node: <code>brew install node</code></li>
-            <li>Install MySql: <code>brew install mysql@5.7</code><br><code>brew services start mysql@5.7</code><br><code>sudo mysqladmin --user=root password "root"</code></li>
+            <li>Install MySql: <code>brew install mysql@5.7</code><br><code>brew services start mysql@5.7</code></li>
+            <li><a href="https://www.fishbowlinventory.com/wiki/Homebrew">Adding Username and Password</a> to MySQL</li>
             <li>Add MySQL to the correct <a href="https://stackoverflow.com/questions/26554818/using-mysql-in-the-command-line-in-osx-command-not-found/32024632">path</a>.</li>
         </ul> 
     </li>
